@@ -12,7 +12,7 @@ const rentalsRoutes = require("./routes/rentals"),
       authRoutes    = require("./routes/auth"),
       fileRoutes    = require("./routes/file-upload");
 
-const url = `mongodb://${config.DB_USER}:${config.DB_PASSWORD}@${config.DB_URI}`;
+const url = `mongodb://127.0.0.1:27017/book-with-me`;//${config.DB_USER}:${config.DB_PASSWORD}@${config.DB_URI}`;
 
 mongoose.connect(url).then(() => {
   if (process.env.NODE_ENV != 'production') {

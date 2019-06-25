@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.275.1",
-    "multer": "^1.3.1",
-    "multer-s3": "^2.7.0"
+    "aws-sdk": "2.275.1",
+    "multer": "1.3.1",
+    "multer-s3": "2.7.0"
   }
 }
