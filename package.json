@@ -62,7 +62,7 @@
     "karma-coverage-istanbul-reporter": "1.2.1",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-html-reporter": "0.2.2",
-    "mongoose": "5.0.12",
+    "mongoose": "5.7.5",
     "node-sass": "4.8.3",
     "protractor": "5.1.2",
     "ts-node": "4.1.0",
